@@ -27,7 +27,6 @@ def read_text(token):
                 {'scope': ['token'], 'description': 'token not valid'}
             ])
         else:
-            print(user_obj)
             try:
                 r = Read(**request.json)
                 try:
