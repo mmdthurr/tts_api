@@ -52,7 +52,7 @@ def read_text(token):
                         owner=token,
                         file_name=tts_obj.file_name,
                         mime=tts_obj.mime,
-                        private=user_obj.make_new_private,
+                        private=user_obj.make_new_public,
                         meta_data=request.json
                     ).save()
                     return {
