@@ -14,4 +14,4 @@ class User(me.Document):
     api_key = me.StringField()
     tg_uid = me.IntField()
     active = me.BooleanField()
-    make_new_private = me.BooleanField()
+    make_new_public = me.BooleanField()
