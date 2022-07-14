@@ -1,0 +1,5 @@
+DB=tts
+DL=https://domain.com
+FTP=454.454.454.454
+FTP_USER=username
+FTP_PASS=passwd
